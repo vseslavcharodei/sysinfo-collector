@@ -1,5 +1,5 @@
 Name: sysinfo-collector
-Version: 1.0
+Version: main
 Release: 1%{?dist}
 Summary: System Information Collector
 License: MIT
@@ -24,5 +24,5 @@ install -D -m 0755 src/sysinfo-collector.sh %{buildroot}/usr/local/bin/sysinfo-c
 /usr/local/bin/sysinfo-collector
 
 %changelog
-* Sat Feb 23 2025 Oleksii Derkach <alexeii.derkach@hotmail.com> - 1.0-1
+* Sat Feb 23 2025 Oleksii Derkach <alexeii.derkach@hotmail.com> - main-1
 - Initial RPM package
