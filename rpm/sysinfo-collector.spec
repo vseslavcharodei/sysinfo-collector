@@ -7,7 +7,7 @@ URL: https://github.com/vseslavcharodei/sysinfo-collector
 Source0: %{name}-%{version}.tar.gz
 
 BuildArch: noarch
-Requires: gum, bash
+Requires: bash, gum, procps-ng, sysstat, util-linux, coreutils, iproute
 
 %description
 sysinfo-collector is a Bash script that collects various system information such as RAM usage, CPU load, running processes, disk space, uptime, and more. It provides an interactive interface using `gum` for user-friendly selection and formatted output.
