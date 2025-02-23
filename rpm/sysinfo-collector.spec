@@ -18,7 +18,7 @@ sysinfo-collector is a Bash script that collects various system information such
 %build
 
 %install
-install -D -m 0755 sysinfo-collector.sh %{buildroot}/usr/local/bin/sysinfo-collector
+install -D -m 0755 src/sysinfo-collector.sh %{buildroot}/usr/local/bin/sysinfo-collector
 
 %files
 /usr/local/bin/sysinfo-collector
