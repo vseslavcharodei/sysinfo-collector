@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
+
 %:
-    dh $@
+	dh $@
 
 override_dh_fixperms:
 	chmod 755 debian/sysinfo-collector/usr/bin/sysinfo-collector
