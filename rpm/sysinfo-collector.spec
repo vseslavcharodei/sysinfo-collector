@@ -1,5 +1,5 @@
 Name: sysinfo-collector
-Version: develop
+Version: 1.0
 Release: 1%{?dist}
 Summary: System Information Collector
 License: MIT
