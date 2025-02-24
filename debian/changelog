@@ -1,0 +1,5 @@
+sysinfo-collector (1.0-1) stable; urgency=medium
+
+  * Initial release of sysinfo-collector package.
+
+ -- Oleksii Derkach <alexeii.derkach@hotmail.com>  Mon, 24 Feb 2025 01:20:06 +0100
