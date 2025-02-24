@@ -1,0 +1,5 @@
+sysinfo-collector (main-1) stable; urgency=medium
+
+  * Initial release of sysinfo-collector package.
+
+ -- Oleksii Derkach <alexeii.derkach@hotmail.com>  $(date -R)
